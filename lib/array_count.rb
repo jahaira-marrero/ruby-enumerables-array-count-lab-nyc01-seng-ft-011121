@@ -1,7 +1,7 @@
 def count_strings(array)
   disney_movies = ["Aladdin", 2, "Cinderella"]
   # Return the total number of strings in the provided array using the count enumerable
- while disney_movies.count do |movie|
+ while disney_movies.count do |"movie"|
    movie.class == String
    p count
  end
