@@ -1,5 +1,5 @@
 def count_strings(array)
-  disney_movies = ["Aladdin", "Beauty and the Beast", "Cinderella"]
+  disney_movies = ["Aladdin", 2, "Cinderella"]
   # Return the total number of strings in the provided array using the count enumerable
  p disney_movies.count
 end
